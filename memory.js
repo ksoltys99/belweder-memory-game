@@ -83,7 +83,7 @@ function victory(){
     document.querySelector('.board').style.width = '367px';
     document.querySelector('.board').style.height = '427px';
     document.querySelector('.board').style.marginLeft = '-185px';
-    document.querySelector('.board').style.marginTop ='-215px';
+    document.querySelector('.board').style.marginTop ='15vh';
     document.querySelector('.turn-counter-box').innerHTML=`<h2>Done after ${turnCounter} rounds!</h2>`;    
 }
 
